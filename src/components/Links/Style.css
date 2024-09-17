@@ -1,0 +1,31 @@
+
+.social-midia {
+    display: flex;
+    gap: 25px;
+    padding: 1.5em;
+    list-style: none;
+    
+   
+    
+}
+
+ .item__link   {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 5px;
+    padding: 5px;
+    width: 137px;
+    height: 40x;
+    border: 0.2px solid var(--greyscale);
+    background: rgb(71,59,193);
+    background: linear-gradient(49deg, #292839 80%, rgba(132,135,164,1) 100%);
+
+
+    color: var(--greyscale);
+    text-decoration: none;
+    font-family: var(--font-body);
+ }
+
+
+

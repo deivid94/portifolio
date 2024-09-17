@@ -1,0 +1,30 @@
+:root {
+
+  
+  --background-fundo: #473BC1;
+  --primarycolorButton: #6f61ff;
+  --greyscale: #ffffff;
+  --background-app: #292839;
+  --grescale700: #434349;
+  --greyscale200: #e2e0e0;
+  --greyscale100: #f2f0f0;
+  --linear-botton: #8487A4;
+
+  --font-body: 'Inter', sans-serif;
+  --font-title: 'Blinker', sans-serif;
+  
+  
+  
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: var(--greyscale);
+}
+
+
