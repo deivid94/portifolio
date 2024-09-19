@@ -20,8 +20,6 @@
     border: 0.2px solid var(--greyscale);
     background: rgb(71,59,193);
     background: linear-gradient(49deg, #292839 80%, rgba(132,135,164,1) 100%);
-
-
     color: var(--greyscale);
     text-decoration: none;
     font-family: var(--font-body);
