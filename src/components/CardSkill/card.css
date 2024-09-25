@@ -1,0 +1,14 @@
+.card_skill{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 184px;
+    height: 184px;
+    border: 2px solid blue;
+}
+
+.card_skill_language  {
+    --fa-primary-color: green;
+    --fa-secondary-color: red;
+    color: var(--primarycolorButton);
+}

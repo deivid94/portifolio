@@ -1,4 +1,8 @@
 import './about.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faDatabase } from '@fortawesome/free-solid-svg-icons'
+import { faGlobe } from '@fortawesome/free-solid-svg-icons'
+import { faLaptop } from '@fortawesome/free-solid-svg-icons'
 export default function Aboutme(){
     return (
         <section className="aboutme_section">
@@ -15,9 +19,9 @@ export default function Aboutme(){
 
         <div className="aboutme__links">
             <ul>
-                <li>Website Development</li>
-                <li>Webapp Development</li>
-                <li>Website Development</li>
+                <li> <FontAwesomeIcon icon= {faGlobe} /> Website Development</li>
+                <li> <FontAwesomeIcon icon ={faLaptop} /> Webapp Development</li>
+                <li> <FontAwesomeIcon icon={faDatabase} /> Web hosting</li>
             </ul>
         </div>
 
