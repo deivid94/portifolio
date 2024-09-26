@@ -1,14 +1,29 @@
-.card_skill{
+.card_container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
+
+    gap: 24px;
+    
+}
+
+.card_skill{
+  
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    border: 1px solid red;
     width: 184px;
     height: 184px;
-    border: 2px solid blue;
+
+
+  
 }
 
 .card_skill_language  {
-    --fa-primary-color: green;
-    --fa-secondary-color: red;
-    color: var(--primarycolorButton);
+ 
+    fill: var(--primarycolorButton);
+
 }
