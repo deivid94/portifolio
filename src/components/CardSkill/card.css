@@ -9,21 +9,25 @@
 
 .card_skill{
   
-
     display: flex;
     justify-content: center;
     align-items: center;
-   
-    border: 1px solid red;
     width: 184px;
     height: 184px;
+    border: double 20px transparent;
+  border-radius: 100px;
+  background-image: linear-gradient(#292839, #292839), radial-gradient(circle at top right, #6F61FF, #9A90FF, #6F61FF);
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+    
+  
 
 
   
 }
 
-.card_skill_language  {
+.fa {
  
-    fill: var(--primarycolorButton);
+    color: black;
 
 }
