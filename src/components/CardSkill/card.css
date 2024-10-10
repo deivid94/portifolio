@@ -2,17 +2,14 @@
     display: flex;
     flex-direction: row;
     justify-content: center;
-    gap: 24px;
-    
 }
 
 
  
 .wrapper {
-    display: flex;
-    flex-direction: row;
-    width: 184px;
-    height: 184px;
+    border: 2px solid red;
+    width: 210px;
+    height: 210px;
     align-items: center;
     justify-content: center;
 }
@@ -20,25 +17,46 @@
 .outer {
     width: 184px;
     height: 184px;
-    /* border: 1px solid #ccc; */
-    box-shadow: -1px -1px 5px 0 rgb(8, 8, 8),  3px 3px 5px black;
+     border: 1px solid #131212;
     border-radius: 100%;
     padding: 17px;
 }
 
 .inner {
+    
     width: 148px;
     height: 148px;
-    box-shadow: inset -1px -1px 5px 0 rgb(8, 8, 8), inset 3px 3px  5x black;
+    border: 2px solid #131212;
     border-radius: 100%;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 
 }
-.icon {
-    color: aqua;
+#icon i {
+border: 1px solid red;
+display: flex;
+justify-content: center;
+align-items: center;
+position: relative;
+color: aqua;
+
 }
 
+circle {
+    fill: none;
+    stroke: url(#linearGradient);
+    stroke-width: 19px;
+    stroke-dasharray: 1165;
+    stroke-dashoffset: 1165;
+    stroke-linecap: round;
+    animation: anim 3s ease forwards;
+}
+ @keyframes anim {
+    100% {
+        stroke-dashoffset: 407.75;
+    }
+ }
 
 

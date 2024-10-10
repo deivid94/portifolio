@@ -14,62 +14,92 @@ export default function CardSkill (){
 
 
         <section className='card_container'>
-        <div className="wrapper">
+          <div className="wrapper">
             <div className="outer">
                 <div className="inner">
-                    <div className="icon">
-                        <i className='fa-3x'>
-                          <FontAwesomeIcon icon={ faReact} />  
-                        </i>
+                    <div id="icon">
+                        
+                            <svg width="350px" height="350px">
+                            <defs>
+                            <radialGradient id="linearGradient">
+                                <stop offset="0%" stopColor='#6f61ff' />
+                                <stop offset="55%" stopColor='#9a90ff' />
+                                <stop offset="100%" stopColor='#6f61ff' />
+                            </radialGradient>
+                            </defs> 
+                            <circle cx="175" cy="176" r="82"/>
+                            </svg>
                     </div>
                 </div>
             </div>
         </div>
+       
         <div className="wrapper">
             <div className="outer">
                 <div className="inner">
-                    <div className="icon">
-                        <i className='fa-3x'>
-                          <FontAwesomeIcon icon={ faJava} />  
-                        </i>
+                    <div id="icon">
+                        
+                            <svg width="350px" height="350px">
+                            <defs>
+                            <radialGradient id="linearGradient">
+                                <stop offset="0%" stopColor='#6f61ff' />
+                                <stop offset="55%" stopColor='#9a90ff' />
+                                <stop offset="100%" stopColor='#6f61ff' />
+                            </radialGradient>
+                            </defs> 
+                            <circle cx="175" cy="176" r="82"/>
+                            </svg>
                     </div>
                 </div>
             </div>
         </div>
+       
         <div className="wrapper">
             <div className="outer">
                 <div className="inner">
-                    <div className="icon">
-                        <i className='fa-3x'>
-                          <FontAwesomeIcon icon={ faJs} />  
-                        </i>
+                    <div id="icon">    
+                
+                            <svg width="350px" height="350px">
+                            <defs>
+                            <radialGradient id="linearGradient">
+                                <stop offset="0%" stopColor='#6f61ff' />
+                                <stop offset="55%" stopColor='#9a90ff' />
+                                <stop offset="100%" stopColor='#6f61ff' />
+                            </radialGradient>
+                            </defs> 
+                            <circle cx="175" cy="176" r="82"/>
+                            </svg>
+                            </div>
+                </div>
+            </div>
+        </div>
+       
+        <div className="wrapper">
+            <div className="outer">
+                <div className="inner">
+                    
+                    <div id="icon">
+                             
+                            <svg width="350px" height="350px">
+                            <defs>
+                            <radialGradient id="linearGradient">
+                                <stop offset="0%" stopColor='#6f61ff' />
+                                <stop offset="55%" stopColor='#9a90ff' />
+                                <stop offset="100%" stopColor='#6f61ff' />
+                            </radialGradient>
+                            </defs> 
+                            <circle cx="175" cy="176" r="82"/>
+                            </svg>
+                            
+                                                         
+                            
                     </div>
                 </div>
             </div>
         </div>
-        <div className="wrapper">
-            <div className="outer">
-                <div className="inner">
-                    <div className="icon">
-                        <i className='fa-3x'>
-                          <FontAwesomeIcon icon={ faGithub} />  
-                        </i>
-                    </div>
-                </div>
-            </div>
-        </div>
-        <div className="wrapper">
-            <div className="outer">
-                <div className="inner">
-                    <div className="icon">
-                        <i className='fa-3x'>
-                          <FontAwesomeIcon icon={ faDocker} />  
-                        </i>
-                    </div>
-                </div>
-            </div>
-        </div>
-
+       
+       
+       
         
 
 
