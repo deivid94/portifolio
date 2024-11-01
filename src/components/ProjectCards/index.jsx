@@ -1,24 +1,25 @@
 import Cards from "../Cards"
+import './index.css'
 
 export default function ProjectCards (){
         return (
             <section className="ProjectCards">
-                <p>Portifolio</p>
+                <p>PORTIFOLIO</p>
                 <h1>Featured Projects</h1>
 
-                <div className="buttons">
+                <div className="ProjectCards_menu">
                     <ul>
                         <li>
-                            All projects
+                                <a href="">All projects</a>
                         </li>
                         <li>
-                            Front-end
+                        <a href="">Front-end</a>
                         </li>
                         <li>
-                            Back-end
-                        </li>
+                            <a href="">Back-end</a>
+                         </li>
                         <li>
-                            Full Stack
+                            <a href="">FullStack</a>
                         </li>
                     </ul>
                 </div>

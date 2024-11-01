@@ -9,22 +9,22 @@ export default function Links(){
      <ul className='social-midia'> 
             
         <li>
-            <a href="#" className='item__link'> 
-                <FontAwesomeIcon icon={faEnvelope} />
+            <a href="#" className='item__link' > 
+                <FontAwesomeIcon icon={faEnvelope} className='fa-lg' />
                 Email</a>
         </li>
 
         <li>
             
         <a href="#" className='item__link'>
-            <FontAwesomeIcon icon={faGithub}/>
+            <FontAwesomeIcon icon={faGithub} className='fa-lg'/>
             Github</a>
             
         </li>
 
         <li>
             <a href="#" className='item__link'>
-                <FontAwesomeIcon icon={faLinkedin}/>
+                <FontAwesomeIcon icon={faLinkedin} className='fa-lg'/>
                 LinkedIN</a>
         </li>
      </ul>

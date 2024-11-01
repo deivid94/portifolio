@@ -3,6 +3,8 @@ import fotoPerfil from  './assets/perfil1.svg'
 import Links from '../Links';
 
 export default function Header(){
+    
+
     return (
     <header className="header-app">
         <div className="elipse">
@@ -13,7 +15,7 @@ export default function Header(){
 
             <div className="brief-dev">
                 <h3>Hello, i`m Deivid Martins</h3>
-                <h1>Developer Backend Java</h1>
+                <h1 className='rotate-vert-center'>Developer Backend Java</h1>
                 <p>Lorem ipsum dolor sit amet consectetur. 
                 Orci suspendisse in quam eu vitae id nunc sed dui.
                 Enim nulla fermentum faucibus lorem sodales suspendisse netus.

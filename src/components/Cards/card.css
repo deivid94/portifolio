@@ -18,6 +18,25 @@
 
 .card_container {
     /*Resolver displau flex  colum*/
+
+
+
     padding: 32px;
     font-family: var(--font-title);
+    width: 224px;
+    height: 157px;
+}
+
+.card_container p {
+    display: flex;
+    width: 224px;
+    height: 76px;
+    font-family: var(--font-body);
+    font-size: 1em;
+}
+
+.card_container h3 {
+    font-family: var(--font-title);
+
+
 }

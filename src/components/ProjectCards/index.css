@@ -1,0 +1,39 @@
+.ProjectCards {
+    display: flex;
+    flex-direction: column;
+    width: 100vw;
+    height: 897px;
+    margin-top: 100px;
+    border: 1px solid red;
+    font-family: var(--font-title);
+}
+
+.ProjectCards p {
+    color: var(--primarycolorButton);
+    letter-spacing: 4px;
+    font-size: 1em;
+}
+
+.ProjectCards h1 {
+    font-size: 3em ;
+font-weight: 700; 
+letter-spacing: 4%;   
+
+}
+
+.ProjectCards_menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 56px 0;
+    text-decoration: none;
+}
+
+.ProjectCards ul {
+    display: flex;
+    gap: 1em;
+    width: 113px;
+    height: 40px;
+    
+}
+

@@ -7,7 +7,6 @@ export default function Cards (){
                 <button></button>
                 <h3>Project Name #1</h3>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-                Morbi finibus convallis efficitur. Etiam eleifend eleifend ante nec tristique.
                  </p>
             </div>
         </div>
