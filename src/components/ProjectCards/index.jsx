@@ -7,26 +7,31 @@ export default function ProjectCards (){
                 <p>PORTIFOLIO</p>
                 <h1>Featured Projects</h1>
 
-                <div className="ProjectCards_menu">
-                    <ul>
-                        <li>
+                <div className="Projectcards_menu">
+                    <ul className="projectcards_menu_ul">
+                        <li className="projectcards_menu_li">
                                 <a href="">All projects</a>
                         </li>
-                        <li>
-                        <a href="">Front-end</a>
+                        <li className="projectcards_menu_li">
+                        <a href="" >Front-end</a>
                         </li>
-                        <li>
+                        <li className="projectcards_menu_li">
                             <a href="">Back-end</a>
                          </li>
-                        <li>
-                            <a href="">FullStack</a>
+                        <li className="projectcards_menu_li">
+                            <a href="" >FullStack</a>
                         </li>
                     </ul>
                 </div>
 
-                <Cards />
+                <div className='ProjectCards_cards'>
+                  <Cards />
+                  <Cards />
+                  <Cards />
+                  <Cards />
+                </div>
 
             </section>
-
+           
         )
 }

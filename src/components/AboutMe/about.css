@@ -16,42 +16,46 @@ background-color: var(--background-app);
 
 }
 
-.about__me h2 {
-    font-family: var(--font-title);
-    font-size: 48px;
+.about__me h1 {
+    font-family: var(--font-titulo);
+    font-size: 4em;
     letter-spacing: 4px;
     color: var(--greyscale);
 }
 
 .about__me p {
-    font-family: var(--font-body);
+    font-family: var(--font-paragrafo);
     font-size: 16px;
     text-align: justify;
 }
 
-.about__me a {
+#about_me_button {
  border-radius: 8px;
- border: 0.2px solid var(--greyscale);
- background: rgb(71,59,193);
- background: linear-gradient(49deg, #292839 80%, rgba(132,135,164,1) 100%);
+ background: linear-gradient(180deg, #473bc1 0%, #6f61ff 100%);
  color: var(--greyscale);
  text-decoration: none;
- font-family: var(--font-body);
+ font-family: var(--font-paragrafo);
  padding: 12px;
-  width: 176px;
-  height: 48px;  
+width: 176px; 
 }
+
+#about_me_button:hover {
+    box-shadow: 4px black;
+    border: 1px solid var(--greyscale);
+    color: white;
+}
+
+.about_me_button_donwload{
+    margin-right: 10px;
+}
+
+
 .aboutme__links ul {
    
-    display:  flex;
-    flex-direction: column;
-    gap: 8px;
-    font-family: var(--font-body);
-    font-size: 16px;
+
+    font-size: 1rem;
     list-style-type: none;
  
-    
-    
     
 }
 
@@ -59,14 +63,12 @@ background-color: var(--background-app);
     width: 246px;
     height: 56px;
     border-left: 5px solid var(--background-fundo);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
 
   
 
 }
 
-.aboutme__links a {
- text-decoration: none;
- 
-
-
-}

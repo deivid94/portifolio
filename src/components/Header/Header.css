@@ -40,7 +40,7 @@ header .container {
 
 
 .brief-dev h3 {
-    font-family: var(--font-title);
+    font-family: var(--font-titulo);
     font-size: 3em;
     text-shadow: 2px 2px 4px black;
     margin-top: 1.2em;
@@ -48,7 +48,7 @@ header .container {
 }
 
 .brief-dev h1 {
-    font-family: var(--font-title);
+    font-family: var(--font-titulo);
     font-size:4.5em ;
     text-shadow: 1px 2px 4px black;
     
@@ -83,7 +83,7 @@ header .container {
   
 
 .brief-dev p {
-    font-family: var(--font-body);
+    font-family: var(--font-titulo);
 }
  .social-midia{
     display: flex;

@@ -6,7 +6,7 @@ export default function Skills (){
         <section className='container_skill'>
             <div className='skill_title'>
                 <p>PORTIFOLIO</p>
-                <h1>Hard Skills Levels</h1>
+                <h1 className='skill_tittle_h'>Hard Skills Levels</h1>
             </div>
             <div className='skill'>
                  <CardSkill />

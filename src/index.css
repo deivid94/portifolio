@@ -6,12 +6,14 @@
   --greyscale: #ffffff;
   --background-app: #292839;
   --grescale700: #434349;
+  --greyscale800: #34333E;
   --greyscale200: #e2e0e0;
   --greyscale100: #f2f0f0;
   --linear-botton: #8487A4;
 
-  --font-body: 'Inter', sans-serif;
-  --font-title: 'Blinker', sans-serif;
+
+  --font-paragrafo: 'Inter', sans-serif;
+  --font-titulo: 'Blinker', sans-serif;
   
   
   
@@ -22,6 +24,7 @@
   padding: 0;
   box-sizing: border-box;
   text-decoration: none;
+  list-style: none;
 }
 
 body {
@@ -29,8 +32,16 @@ body {
   color: var(--greyscale);
   display: flex;
   flex-direction: column;
+  font-family: var(--font-paragrafo);
   
 
 }
+
+p {
+  color: white;
+  
+}
+
+
 
 

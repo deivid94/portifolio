@@ -9,15 +9,14 @@
 }
 .container_skill p {
     margin-top:100px;
-    font-family: var(--font-title);
     color: var(--primarycolorButton);
     letter-spacing: 4px;
 
 }
 
-.container_skill h1 {
+h1 {
     font-size: 3em;
-    font-family: var(--font-title);
+    font-family: var(--font-titulo);
+    font-size: 4em;
     letter-spacing: 4px;
-    
 }

@@ -9,7 +9,6 @@
 }
 
 .ProjectCards p {
-    color: var(--primarycolorButton);
     letter-spacing: 4px;
     font-size: 1em;
 }
@@ -20,7 +19,7 @@
 
 }
 
-.ProjectCards_menu {
+.Projectcards_menu {
     display: flex;
     flex-direction: row;
     margin: 56px 0;
@@ -28,7 +27,7 @@
 
 }
 
-ul {
+.projectcards_menu_ul {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -36,7 +35,8 @@ ul {
     list-style: none;
 }
 
-li {
+.projectcards_menu_li
+ {
     width: 157px;
     border: 1px solid grey;
     border-radius: 8px;
@@ -49,4 +49,12 @@ a {
 
 li:hover{
     background-color: var(--primarycolorButton);
+    border-radius: 6px;
 }
+
+.ProjectCards_cards {
+    display: flex;
+    flex-direction: row;
+    gap: 24px;
+}
+
