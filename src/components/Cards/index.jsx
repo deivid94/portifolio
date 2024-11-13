@@ -6,15 +6,16 @@ export default function Cards (){
         <div className="flip-card">
           <div className="flip-card-inner">
             <div className="flip-card-front">
-                <img src={devhouse} alt=""/>
+                <img className='flip_card_img' src={devhouse} alt=""/>
+                <a href="#" id='flip_card_button'>Back-end </a>
+                <h3 className="flip_card_name_project">1# project</h3>
+                <p className='flip_card_description'>is simply dummy text of the printing and
+                     typesetting industry.
+                      Lorem Ipsum has been the industry's
+                       y</p>
             </div>
             <div className="flip-card-back">
-            <a href="">Back-end</a> 
-            <h3>Project Name #1</h3>    
-            <p>
-            Lorem ipsum dolor sit amet consectetur. 
-            Semper lacus eget et consectetur egestas  
-            </p>
+                
             </div>
             </div>  
 
