@@ -34,7 +34,7 @@
 }
 
 .flip_card_description {
- font-family: var(--font-paragrafo);
+ font-family: var(--font-titulo, sans-serif);
  font-size: 16px;
  text-align: start;
  margin-bottom: 25px;
@@ -70,8 +70,14 @@
 
 
 .flip_card_img {
+    position: relative;
     width: 288px;
     height: 135px;
     background: var(--grescale700);
+    border-radius: 8px;
+    right: 5px;
+    bottom: 3px
+    
+
     
 }

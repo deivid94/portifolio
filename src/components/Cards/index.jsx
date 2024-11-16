@@ -11,8 +11,7 @@ export default function Cards (){
                 <h3 className="flip_card_name_project">1# project</h3>
                 <p className='flip_card_description'>is simply dummy text of the printing and
                      typesetting industry.
-                      Lorem Ipsum has been the industry's
-                       y</p>
+                      Lorem Ipsum has been the industry's</p>
             </div>
             <div className="flip-card-back">
                 
